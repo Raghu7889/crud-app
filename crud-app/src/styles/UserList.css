@@ -1,0 +1,9 @@
+/* Background styling */
+.user-background {
+  background: linear-gradient(120deg, #84fab0, #8fd3f4);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: backgroundAnimation 6s ease infinite;
+}

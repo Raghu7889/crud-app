@@ -1,0 +1,79 @@
+/* Container styling */
+.register-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+/* Background styling */
+.register-background {
+  background: linear-gradient(120deg, #84fab0, #8fd3f4);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: backgroundAnimation 6s ease infinite;
+  overflow: hidden;
+}
+
+.space {
+  padding-top: 10px;
+}
+
+/* Card styling */
+.register-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  min-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Title styling */
+.title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Success message styling */
+.success-message {
+  margin-top: 10px;
+  color: #4caf50;
+}
+
+/* Form styling */
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-field {
+  margin-bottom: 15px;
+}
+
+.register-button {
+  margin-top: 20px;
+}
+
+.error-message {
+  margin-top: 10px;
+  color: red;
+}
+
+/* Link styling */
+.login-link {
+  margin-top: 15px;
+}
+
+.link {
+  color: #1e88e5;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
